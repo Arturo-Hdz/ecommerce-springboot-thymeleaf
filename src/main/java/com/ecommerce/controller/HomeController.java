@@ -117,7 +117,7 @@ public class HomeController {
 		//lista nueva de productos
 		List<DetalleOrden> ordenesNueva= new ArrayList<DetalleOrden>();
 		
-		for(DetalleOrden detalleOrden: detalles) {
+		for(DetalleOrden detalleOrden : detalles) {
 			if(detalleOrden.getProducto().getId()!=id) {
 				ordenesNueva.add(detalleOrden);
 			}
